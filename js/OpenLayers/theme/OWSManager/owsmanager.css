@@ -1,0 +1,219 @@
+.olControlMousePosition {
+	border:1px solid black;
+	background-color:white;
+	color:black;
+	padding:2px;
+	margin:2px;
+	
+}
+
+.olControlWMSManager{}
+
+.olLayerManagerHeader {
+		
+	
+}
+.olLayerManagerHeader a {
+	text-decoration:none;
+	color: rgb(180,180,180);	
+}
+
+.olLayerManagerHeader  span {
+		border:1px solid rgb(100,100,160);
+		margin:2px;
+		margin-bottom:0;
+		padding:3px;
+		background-color:rgb(100,100,200);
+		
+}
+.olLayerManagerHeader  .active {		
+		color:white;	
+}
+.olLegend,.olServerList,.olCatalogue{
+		border:1px solid rgb(100,100,160);
+		margin:2px;
+		margin-bottom:0;
+		margin-right:6px;
+		padding:3px;
+		background-color:rgb(100,100,200);
+		/*width:100%;
+		height:100%;*/
+		/*width:28em;*/
+		overflow:auto;
+		color:white;
+
+}
+.wmsLayerListOutput,.catalogueInfoDiv {
+	padding : 1em;
+	height : 7em;
+	width : 16em;
+	overflow : auto;
+	border:1px solid white;
+}
+
+.olServerList select,.olServerList option,.olCatalogue select,.olCatalogue option {
+	width:16em;
+	
+	
+}
+.wmsServerList{
+	
+}
+.olLegendLayerDiv{
+	border:1px solid rgb(230,230,240);
+margin:0.1em; 
+margin-right:5px;
+padding:0.2em;
+
+}
+.olLegendLayerDiv ul ,.olLegendLayerDiv li {
+	margin:0;
+	padding:2px;
+	margin-left:10px;
+}
+.olLegendLayerOpacity {
+
+margin-left:0.2em;
+margin-right:0.2em;
+}
+.olLegendLayerOpacity {
+color:white;
+text-decoration:none;
+}
+.olLegendLayerDrop{
+color:red;
+margin:0.2em;
+background-color:yellow;
+border:1px solid red;
+	
+}
+.olLegendLayerSwitch {
+	
+}
+
+.olLegendLayerTools {
+	margin-top:10px;
+	padding-top:10px;
+	border-top:1px solid white;
+}
+.olLegendLegendImages {
+	display:none;
+	margin-top:10px;
+	padding-top:2px;
+	border-top:1px solid white;
+	position:relative;
+	height:120px;
+	overflow:auto;
+}
+.olLegendLegendImages table{
+	font-size:0.9em;
+	border-top:2px solid white;
+	border-bottom:2px solid white;
+	/*width:15em;*/
+	color:rgb(240,254,254);
+}
+.olLegendLegendImages th{
+	margin-left:0.1em;
+	border-right:2px solid white;
+}
+.olLegendLegendImages td {
+	margin-left:0.3em;
+	
+}
+.olLegendIconExpander,.olLegendIconZoomer{
+	color:white;
+margin:0.2em;
+background-color:gray;
+border:1px solid rgb(30,30,30);
+	
+}
+.olControlWMSPermalink {
+    left: 0.5em;
+    bottom: 1em;
+    display: block;
+    position: absolute;
+} 
+
+.olControlWMSExporter {
+    left: 0.5em;
+    bottom: 3em;
+    display: block;
+    position: absolute;
+} 
+.olControlWMCExporter {
+    right: 0.5em;
+    bottom: 1em;
+    display: block;
+    position: absolute;
+} 
+
+
+   
+.olControlWMSToolbar div { 
+  display:block;
+  width:  28px;
+  height: 28px;
+  top: 300px;
+  left: 6px;
+  position: relative;
+}
+
+.olControlWMSToolbar .olControlNavigationItemActive { 
+  background-image: url("img/panning-hand-on.png");
+  background-repeat: no-repeat;
+}
+.olControlWMSToolbar .olControlNavigationItemInactive { 
+  background-image: url("img/panning-hand-off.png");
+  background-repeat: no-repeat;
+}
+.olControlWMSToolbar .olControlZoomBoxItemActive { 
+  background-image: url("img/drag-rectangle-on.png");
+  background-color: orange;
+  background-repeat: no-repeat;
+}
+.olControlWMSToolbar .olControlZoomBoxItemInactive { 
+  background-image: url("img/drag-rectangle-off.png");
+  background-repeat: no-repeat;
+}
+
+.olControlWMSToolbar .olControlWMSQueryItemActive { 
+  background-image: url("img/identify-on.png");
+  background-color: orange;
+  background-repeat: no-repeat;
+}
+.olControlWMSToolbar .olControlWMSQueryItemInactive { 
+  background-image: url("img/identify-off.png");
+  background-repeat: no-repeat;
+}
+
+/* SLD Editor */
+
+.olTabHeader {
+	margin: 20px;
+	margin-bottom:0;
+}
+
+.olTabHeader a {
+	text-decoration:none;
+	color: rgb(180,180,180);	
+}
+
+.olTabHeader  span {
+		border:1px solid rgb(100,100,160);
+		margin:2px;
+		margin-bottom:0;
+		padding:3px;
+		background-color:rgb(100,100,200);
+		
+}
+.olTabHeader  .active {		
+		color:white;	
+}
+
+.olTabBody {
+background-color:#6464C8;
+border:1px solid #6464A0;	
+	margin:4px 22px 20px;
+padding:3px;
+color:white;
+}
